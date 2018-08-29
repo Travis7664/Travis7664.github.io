@@ -1,0 +1,198 @@
+@import url(font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+
+
+	html, body,h1,header {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+/* Containers */
+
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	
+	.container.\37 5\25 {
+		width: 60em;
+	}
+
+
+	
+
+/* Grid */
+
+	.row {
+		border-bottom: solid 1px transparent;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.row > * {
+		float: left;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.row:after, .row:before {
+		content: '';
+		display: block;
+		clear: both;
+		height: 0;
+	}
+
+	.\36 u, .\36 u\24 {
+		width: 50%;
+		clear: none;
+		margin-left: 0;
+	}
+
+
+/* Type */
+
+	body {
+		background-color: #fff;
+		color: #666;
+	}
+
+	body, input, select, textarea {
+		font-family: "Raleway", Arial, Helvetica, sans-serif;
+		font-size: 13pt;
+		font-weight: 400;
+		line-height: 2em;
+	}		
+		
+	h1 {
+		color: #484848;
+		font-weight: 700;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+	}
+
+		h1 a{
+			color: inherit;
+			text-decoration: none;
+		}
+
+	h2 {
+		font-size: 1.8em;
+		line-height: 1.5em;
+	}
+
+
+
+
+/* Section/Article */
+
+	
+	header h2 + p {
+		font-size: 1.25em;
+		margin-top: -1em;
+		line-height: 1.5em;
+	}
+
+	
+	header.major {
+		margin: 0 0 6em 0;
+	}
+
+		header.major h2 {
+			font-size: 3em;
+		}
+
+		header.major h2 {
+			display: inline-block;
+			margin: 0 0 0.8em;
+		}
+
+		header.major p {
+			font-size: 1.7em;
+			margin-bottom: 0;
+		}
+
+
+
+	.wrapper {
+		padding: 6em 0 4em 0;
+	}
+
+
+
+/* Header */
+
+	
+
+		#header h1 {
+			color: #484848;
+			font-weight: 400;
+			height: inherit;
+			left: 1.25em;
+			line-height: inherit;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+		}
+
+
+		#header.alt {
+			background-color: transparent;
+			border: 0;
+			box-shadow: none;
+			height: 3.25em;
+			line-height: 3.25em;
+			position: absolute;
+		}
+
+			#header.alt h1 {
+				color: #ffffff;
+				left: 2.5em;
+				top: 2em;
+			}
+
+				#header.alt h1 a {
+					color: #FFF;
+				}
+
+	
+/* Banner */
+
+	
+
+	#banner {
+		padding: 16em 0 13em 0;
+		background-attachment: fixed;
+		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-position: center top;
+		background-size: cover;
+		line-height: 1.75;
+		text-align: center;
+	}
+
+		
+
+		#banner h2 {
+			color: #ffffff;
+			display: inline-block;
+			font-size: 3.5em;
+			line-height: 1.35;
+			margin-bottom: 0.5em;
+		}
+
+		#banner p {
+			color: #aaa;
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
+			text-transform: uppercase;
+		}
+	
